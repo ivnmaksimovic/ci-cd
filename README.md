@@ -42,3 +42,7 @@ Run `sudo ./deploy.sh -a myapp.com -v v1.27.0`
 Both -a (app folder name) and -v (version number) are required params. App folder have to match -a, and it has to contains `builds` folder which contains build named by version like `appname/builds/v1.27.0`.
 
 `sudo ./deploy.sh -a myapp.com -v v1.26.0` to rollback if current version was `v1.27.0`.
+
+## License
+
+`ci-cd` is released under the MIT license.
