@@ -1,3 +1,4 @@
 node_modules
 /conf/**
 !/conf/template.conf
+.DS_Store
