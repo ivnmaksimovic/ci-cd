@@ -91,7 +91,7 @@ RUN_PRODUCTION_BUILD
 # 1. Make archive from BUILD_PATH (ex. dist or build)
 # 2. ssh to server with the archive
 # 3. Create directory structure if it does not exists
-# 4. Unpack the 
+# 4. Unpack the archive
 # 5. Clear folder just in case the same version is being delivered
 # 6. Rename the build folder to version (ex. builds/dist to builds/v1.27.0)
 printf -- "Creating archive of build, gziping, uploading...\n"
